@@ -3,13 +3,16 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
-.masthead__menu-and-search {
+.masthead__icons{
     grid-column-start: 1;
     grid-row-start: 1;
 }
 .masthead__actions {
     grid-column-start: 3;
     grid-row-start: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 .masthead__technologies {
     grid-column-start: 2;
@@ -26,4 +29,18 @@
 .masthead__paper {
     grid-column-start: 3;
     grid-row-start: 2;
+}
+.masthead__icons {
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 11px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+.masthead__icons:hover {
+    background-color: #f7f7f5;
 }
