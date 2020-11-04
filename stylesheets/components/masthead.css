@@ -13,22 +13,55 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    padding-top: 7px;
 }
 .masthead__technologies {
     grid-column-start: 2;
-    grid-row-start: 1;
+    grid-row-start: 2;
+   
+
+}
+.masthead__technology-list{
+    border-right: 1px #e2e2e2 solid;
+    border-left: 1px #e2e2e2 solid;
+    border-top: 1px #e2e2e2 solid;
+    text-transform: uppercase;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.masthead__technology{
+    margin: 0 4px;
 }
 .masthead__date {
     grid-column-start: 1;
     grid-row-start: 2;
+    display: flex;
+    align-items: flex-end;
+    font-size: 11px;
+    padding-bottom: 11px;
+    border-bottom: 1px #e2e2e2 solid;
+    border-top: 1px #e2e2e2 solid;
 }
 .masthead__logo {
     grid-column-start: 2;
     grid-row-start: 2;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 11px;
+    border-bottom: 1px #e2e2e2 solid;
+    /* border-top: 1px #e2e2e2 solid; */
 }
 .masthead__paper {
     grid-column-start: 3;
     grid-row-start: 2;
+    display: flex;
+    align-items: flex-end;
+    font-size: 11px;
+    justify-content: flex-end;
+    padding-bottom: 11px;
+    border-bottom: 1px #e2e2e2 solid;
+    border-top: 1px #e2e2e2 solid;
 }
 .masthead__icons {
     padding-left: 9px;
@@ -43,4 +76,14 @@
 
 .masthead__icons:hover {
     background-color: #f7f7f5;
+}
+
+.masthead__technology {
+  margin: 0 4px;
+}
+
+.masthead__technology-list {
+  color: #6f6f6f;
+  font-size: 10px;
+  text-transform: uppercase;
 }
